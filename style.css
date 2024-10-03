@@ -1,0 +1,68 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: roboto, sans-serif;
+}
+
+
+.hero{
+    background-image: url(img5.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-left: 150px;
+}
+
+.card{
+    width: 60%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.app{
+    position: relative;
+    display: flex;
+    padding: 50px;   
+}
+.apropos{
+    width: 40%;
+    height: 10%;
+}
+
+.text{
+    font-size: 16px;
+    padding: 100px;
+}
+
+.forme{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+img{
+    width: 150px;
+    height: 190px;
+}
